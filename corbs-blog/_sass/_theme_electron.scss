@@ -1,0 +1,35 @@
+$body-color: #515151;
+$body-bg: #ECF2F5;
+$link-color: $blue;
+
+/* Electron */
+.theme-base-0g .sidebar,
+.theme-base-0g .sidebar a,
+.theme-base-og .sidebar-about h1 {
+  background-color: #3C64C3;
+  color: #ECF2F5
+}
+
+.theme-base-0g .content a,
+.theme-base-0g .related-posts li a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1F9ABC;
+}
+
+.theme-base-0g span.categories a.category {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff3366;
+}
+
+.theme-base-0g a.sidebar-nav-item:hover,
+.theme-base-0g a.sidebar-nav-item:focus {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ff3366;
+}
+.theme-base-0g .sidebar-nav-item.active {
+  font-weight: bold;
+  color: #2CC1E9;
+}
